@@ -1,0 +1,33 @@
+# Node modules
+node_modules
+npm-debug.log
+pnpm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.*.local
+
+# Prisma
+prisma/.env
+
+# Docker specific files
+.dockerignore
+Dockerfile
+
+# Git
+.git
+.gitignore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output (for NestJS)
+dist
+build

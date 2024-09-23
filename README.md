@@ -27,20 +27,21 @@ Make sure you have:
    ```bash
    git clone https://github.com/your-username/book-management-api.git
    cd book-management-api
-  ```
-
+   ```
 2. Install dependencies:
 
-  pnpm install
-
+  ```bash
+   pnpm install
+  ```
 3. Set Up Environment Variables:
   ```bash 
     DATABASE_URL="postgresql://<username>:<password>@localhost:5432/bookdb?schema=public"
   ```
-
-
 4. Run Prisma Migrations:
-  pnpm prisma migrate dev
-
-5. Run the Application:
-  pnpm run start:dev
+   ```bash
+     pnpm prisma migrate dev
+   ```
+6. Run the Application:
+   ```bash
+     pnpm run start:dev
+   ```
